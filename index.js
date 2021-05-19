@@ -56,5 +56,13 @@ app.get('/auth/google/callback', forwardAuthenticated,
     });
 app.post('/auth/google', authController.googleSubmit);
 
-module.exports = app 
+let port = process.env.PORT || 3000
+
+app.listen(port, function() {
+    console.log(
+        "Server running. Visit: localhost:3000"
+    );
+});
+
+
 
