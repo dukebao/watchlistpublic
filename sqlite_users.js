@@ -50,7 +50,7 @@ const userModel = {
     },
 };
 
-//console.log(userModel.list_users());
+console.log(userModel.list_users());
 
 module.exports = {
     userModel
