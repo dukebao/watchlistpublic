@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ericchanko/acit2911.git"
+        "url": "git+https://github.com/dukebao/watchlistpublic.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/ericchanko/acit2911/issues"
+        "url": "https://github.com/dukebao/watchlistpublic"
     },
-    "homepage": "https://github.com/ericchanko/acit2911#readme",
+    "homepage": "https://github.com/dukebao/watchlistpublic",
     "dependencies": {
         "better-sqlite3": "^7.3.1",
         "body-parser": "^1.19.0",

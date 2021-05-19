@@ -56,7 +56,7 @@ app.get('/auth/google/callback', forwardAuthenticated,
     });
 app.post('/auth/google', authController.googleSubmit);
 
-let port = process.env.PORT || 3000
+let port = process.env.PORT || 3000;
 
 app.listen(port, function() {
     console.log(
