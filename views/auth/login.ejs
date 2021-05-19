@@ -1,0 +1,60 @@
+<head>
+    <title>AWA Login</title>
+</head>
+<body>
+    <div class="login-page container">
+        <a href="/" class="back-home">⇦ Home</a>
+        <div class="login-desc-box">
+            <div class="login-desc">
+                <div class="login-heading">
+                    <div class="login-icon"></div>
+                    <h2>AWA</h2>
+                </div>
+                <p>Sign in or create an account</p>
+            </div>
+        </div>
+        <div class="login-container">
+            <div class="login-box">
+                <div class="login-cards">
+                    <div class="log-in">
+                        <h1>Sign in</h1>
+                        <p>New user? <a href="/register" class="create-account">Create an account</a></p>
+                    </div>
+                    <form action="/login" method="post">
+                        <div class="login-form">
+                            <div id="username">
+                                <p>Email/Username</p>
+                                <label for="uname">
+                                    <input type="text" name="username" placeholder="Enter email or username" size="54" required>
+                                </label>
+                            </div>
+                            <div id="password">
+                                <p>Password</p>
+                                <label for="psw">
+                                    <input type="password" name="password" placeholder="Enter password" size="54" required>
+                                </label>
+                            </div>
+                            <div id="submit">
+                                <button type="submit">Continue</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="border">
+                        <div class="line"></div>
+                        <span>Or</span>
+                        <div class="line"></div>
+                    </div>
+
+                    <form action="/auth/google" method="post">
+                        <div class="google-login">
+                            <input type="image" src="/image/googleicon.png" alt="googleicon" height = "75" width="300" name="submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="login-footer">
+<!--                  stuff here for login footer like TOS or smthn-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
