@@ -56,8 +56,5 @@ app.get('/auth/google/callback', forwardAuthenticated,
     });
 app.post('/auth/google', authController.googleSubmit);
 
-app.listen(3000, function() {
-    console.log(
-        "Server running. Visit: localhost:3000"
-    );
-});
+module.exports = app 
+
